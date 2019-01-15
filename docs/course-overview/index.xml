@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Overview on DATA606 - Spring 2019</title>
+    <link>/course-overview/</link>
+    <description>Recent content in Course Overview on DATA606 - Spring 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/course-overview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Schedule</title>
+      <link>/course-overview/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/course-overview/schedule/</guid>
+      <description> Google Calendar
+ Course Schedule    Start Due Date Chapter Topic     Aug-27 Sep-9 1 Intro to Data   Sep-10 Sep-23 2 Probability   Sep-24 Oct-7 3 Distributions   Oct-8 Oct-21 4 Foundation for Inference   Oct-22 Oct-28 5 Inference for Numerical Data   Oct-29 Nov-4 6 Inference for Categorical Data   Nov-5 Nov-25 7 Linear Regression   Nov-26 Dec-9 8 Multiple &amp;amp; Logistic Regression   Dec-10 Dec-12 Navarro Introduction to Bayesian Analysis   Dec-13 Dec-17  Final Exam    </description>
+    </item>
+    
+    <item>
+      <title>Meetups</title>
+      <link>/course-overview/meetups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/course-overview/meetups/</guid>
+      <description>There will be weekly meetups. You are encouraged to attend as many as you can but recordings will generally be availabe the day after the meetup.
+You can join the meetup from your computer, tablet or smartphone at: https://global.gotomeeting.com/join/890853557.
+You can also dial in using your phone: (646) 749-3122
+Access Code: 890-853-557
+Presentation Signup Sheet
+   Date Topic Resources      Intro to Course    Wed, Sep 5, 8:00 pm Intro to Data    Wed, Sep 12, 8:00 pm Probability    September 19 NO MEETUP - Yom Kippur    Wed, Sep 26, 8:00 pm Distributions Part I    Wed, Oct 3, 8:00 pm Distributions Part II    Wed, Oct 10, 8:00 pm Foundation for Inference    Wed, Oct 17, 8:00 pm Foundation for Inference cont.</description>
+    </item>
+    
+    <item>
+      <title>Textbooks</title>
+      <link>/course-overview/textbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/course-overview/textbooks/</guid>
+      <description>Required Diez, D.M., Barr, C.D., &amp;amp; Çetinkaya-Rundel, M. (2015). OpenIntro Statistics (3rd Ed).
+ This is an open source textbook and can be downloaded in PDF format here, from the OpenIntro website, or a printed copy can be ordered from Amazon.
+ Navarro, D. (2015, version 0.5). Learning Statistics with R
+ This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis.</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/course-overview/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/course-overview/software/</guid>
+      <description>We will make use of R, an open source statistics program and language. Be sure to install R and RStudio on your own computers within the first few days of the class.
+ R - Windows or Mac RStudio - Download Windows or Mac version from here LaTeX - Windows use MiKTeX or Mac use BasicTeX (it is best to use Safari to download this file as Chrome or Firefox will often fail)  If using Windows, you also need to download and install these:</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/course-overview/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/course-overview/links/</guid>
+      <description>These are some useful resources on the web for learning R. Feel free to suggest other resources by clicking the &amp;ldquo;Edit page&amp;rdquo; button in the top right.
+Learning R  R for Data Science. Book by Garrett Grolemund and Hadley Wickham Quick-R. Kabakoff&amp;rsquo;s website. Great reference along with his book, R in Action. O&amp;rsquo;Reilly Try R. Great tutorial on R where you can try R commands directly from the web browser.</description>
+    </item>
+    
+    <item>
+      <title>Math Equations</title>
+      <link>/course-overview/mathjax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/course-overview/mathjax/</guid>
+      <description>Occasionally you will need to type equations in homework and labs. R Markdown supports LaTeX style equations using the MathJax javascript library. I do not expect you to learn LaTeX for this course. Instead, I recommend using the free application [Daum Equation Editor](). It availabe online, as a Google Chrome Extension, or as a standalone Mac Application.
+Creating Equations with Daum Equation Editor Occasionally you will need to type equations in homework and labs.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on DATA606 - Spring 2019</title>
+    <link>/assignments/</link>
+    <description>Recent content in Assignments on DATA606 - Spring 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/assignments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Presentation</title>
+      <link>/assignments/presentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/presentation/</guid>
+      <description>You are responsible for presenting one practice homework problem during the semester. Please sign up as-soon-as possible as there are only three slots per week. Try to keep each presentation to five minutes or less. Sign-up on this Google Spreadsheet: https://docs.google.com/spreadsheets/d/1QCagC9KIhWvmSOTKmqYo0FTq1iZUdh765m7kmrqSPRc/edit?usp=sharing
+GoToMeeting Connection Information:
+https://global.gotomeeting.com/join/890853557
+You can also dial in using your phone: (646) 749-3122
+Access Code: 890-853-557</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>/assignments/homework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/homework/</guid>
+      <description>The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded here. Or alternatively all the data is included in the openintro R packge (use the data(package = &#39;openintro&#39;) command to list all the datasets available in that package).</description>
+    </item>
+    
+    <item>
+      <title>Labs</title>
+      <link>/assignments/labs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/labs/</guid>
+      <description>These mini projects will have you explore statistical topics using R. You can use the startLab function in the DATA606 package to get started, or copy the templates from the links below. Please submit a PDF (preferred) or HTML file along with your Rmarkdown file. Be sure to answer all questions in lab, not just the on your own section. Labs can be submitted on Blackboard.
+Introduction to R and RStudio (Template) Introduction to Data (Template) Probability (Template) Distributions of Random Variables (Template) Foundations for Statistical Inference Sampling Distributions (Template) Confidence Levels (Template)  Inference for Numerical Data (Template) Inference for Categorical Data (Template) Introduction to Linear Regression (Template) Multiple Linear Regerssion (Template)  </description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>/assignments/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/project/</guid>
+      <description>Download project proposal template Download project template  The purpose of the data project is for you to conduct a reproducible analysis with a data set of your choosing. There are two components to the project, the proposal, which will be graded on a pass/fail basis, and the final report. The outline for each of these are provided in the templates. When submitting the assignments, include the R Markdown file (change the name to include your last name, for example Bryer-Proposal.</description>
+    </item>
+    
+  </channel>
+</rss>

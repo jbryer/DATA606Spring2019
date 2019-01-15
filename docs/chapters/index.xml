@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapters on DATA606 - Spring 2019</title>
+    <link>/chapters/</link>
+    <description>Recent content in Chapters on DATA606 - Spring 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Apr 2017 18:36:24 +0200</lastBuildDate>
+    
+	<atom:link href="/chapters/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>/chapters/chapter1/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter1/</guid>
+      <description>Chapter 1 - Introduction to Data Learning Objectives  Identify the type of variables (e.g. numerical or categorical; discrite or continuous; ordered or not ordered). Identify the relationship between multiple variables (i.e. indepedent vs. dependent). Define variables that are not associated as independent. Be able to describe and identify the difference between observational and experimental studies. Distinguish between simple random, stratified, and cluster sampling, and recognize the benefits and drawbacks of choosing one sampling scheme over another.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>/chapters/chapter2/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter2/</guid>
+      <description>Chapter 2 Learning Outcomes  Define trial, outcome, and sample space. Define and describe the law of large numbers. Distinguish disjoint (also called mutually exclusive) and independent events. Use Venn diagrams to represent events and their probabilities. Describe probability distributions. Distinguish between marginal and conditional probabilities. Use tree diagrams and/or Bayes Theorem to calculate conditional probabilities and probabilities of intersection of non-independent events. The expected value of a discrete random variable is computed by adding each outcome weighted by its probability.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3</title>
+      <link>/chapters/chapter3/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter3/</guid>
+      <description>Chapter 3 Assignments Homework OpenIntro Statistics
+ Practice: 3.1 (see normalPlot), 3.3, 3.17 (use qqnormsim from lab 3), 3.21, 3.37, 3.41 Graded: 3.2 (see normalPlot), 3.4, 3.18 (use qqnormsim from lab 3), 3.22, 3.38, 3.42  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 4</title>
+      <link>/chapters/chapter4/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter4/</guid>
+      <description>Chapter 4 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Labs The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 5</title>
+      <link>/chapters/chapter5/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter5/</guid>
+      <description>Chapter 5 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 6</title>
+      <link>/chapters/chapter6/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter6/</guid>
+      <description>Chapter 6 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 7</title>
+      <link>/chapters/chapter7/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter7/</guid>
+      <description>Chapter 7 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 8</title>
+      <link>/chapters/chapter8/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter8/</guid>
+      <description>Chapter 8 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab 1 The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/chapters/bayesian/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/bayesian/</guid>
+      <description> Bayesian Analysis Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab 1 Readings  Fitting a Model by Maximum Likelihood (Collier, 2013). Kruschke&amp;rsquo;s website for Doing Bayesian Data Analysis Kruschke&amp;rsquo;s blog Andrew Gelman&amp;rsquo;s blog - Posts about bayesian statistics  Videos Bayesian Methods Interpret Data Better
+ Bayesian Estimation Supersedes the t Test
+ Precision is the goal
+ </description>
+    </item>
+    
+  </channel>
+</rss>
