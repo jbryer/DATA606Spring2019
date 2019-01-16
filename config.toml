@@ -1,0 +1,56 @@
+baseURL = "/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+title = "DATA606 - Spring 2019"
+theme = "hugo-theme-docdock"
+themesdir = "themes/"
+
+publishDir = "docs/"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+editURL = "https://github.com/jbryer/DATA606Spring2019/tree/master/content/"
+noHomeIcon = false # default is false
+noSearch = false # default is false
+showVisitedLinks = true # default is false
+themeStyle = "flex" # "flex" or "original"
+themeVariant = "green" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<h3>Links</h3>"
+name = "<i class='fa fa-slack'></i> Slack"
+url = "https://data606spring2019.slack.com/messages"
+weight = 8
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-question-circle'></i> Ask a question"
+url = "https://github.com/jbryer/DATA606Spring2019/issues"
+weight = 9
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-question-circle'></i> Answered questions"
+url = "https://github.com/jbryer/DATA606Spring2019/issues?q=is%3Aissue+is%3Aclosed"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Github Repo"
+url = "https://github.com/jbryer/DATA606Spring2019"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-pencil'></i> Blackboard"
+url = "https://bbhosted.cuny.edu/webapps/login"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-graduation-cap'></i> CUNY SPS"
+url = "https://sps.cuny.edu/academics/graduate/master-science-data-analytics-ms"
+weight = 12
+

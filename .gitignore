@@ -2,5 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+Slides/start
+themes/hugo-theme-docdock_orig
 private/
-Slides/start/
+meetups/
