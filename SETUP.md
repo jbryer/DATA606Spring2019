@@ -14,8 +14,10 @@
 * Create Google Sheet for presentation signup and update link on these pages:
 	* `content/assignments/presentation.md`
 	* `content/course-overview/meetups.md`
+	* `content/_heater.md`
 * Create Google Calendar.
 * Update schedule on `content/course-overview/meetups.md` and `content/course-overview/schedule.md`.
+* Change nav bar color in /themes/hugo-theme-docdock/static/theme-flex/style.css
 * Create Slack channel.
 * Update URL for past semester:
 	* Change the custom domain to `XXXYYY.data606.net`
