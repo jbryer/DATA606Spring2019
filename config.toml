@@ -15,8 +15,8 @@ editURL = "https://github.com/jbryer/DATA606Spring2019/tree/master/content/"
 noHomeIcon = false # default is false
 noSearch = false # default is false
 showVisitedLinks = true # default is false
-themeStyle = "flex" # "flex" or "original"
-themeVariant = "green" # choose theme variant "green", "gold" , "gray", "blue" (default)
+themeStyle = "original" # "flex" or "original"
+themeVariant = "blue" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
 
 [outputs]

@@ -7,8 +7,7 @@ weight = 1
 [Google Calendar](https://calendar.google.com/calendar?cid=OHFmdjdicWc4ZmxuZG5sODdvbW9lcXA4bmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
 
-<iframe src="https://calendar.google.com/calendar?cid=OHFmdjdicWc4ZmxuZG5sODdvbW9lcXA4bmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
+<iframe src="https://calendar.google.com/calendar/embed?src=8qfv7bqg8flndnl87omoeqp8ng%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Course Schedule
 
