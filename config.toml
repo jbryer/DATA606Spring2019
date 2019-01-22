@@ -8,7 +8,7 @@ themesdir = "themes/"
 
 publishDir = "docs/"
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.txt$", "\\.csv$", "\\.rda$", "\\.Rda$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
 editURL = "https://github.com/jbryer/DATA606Spring2019/tree/master/content/"

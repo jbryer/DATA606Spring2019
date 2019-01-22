@@ -7,6 +7,9 @@ if(!require(blogdown)) {
 # blogdown::install_hugo()
 # blogdown::new_site()
 # blogdown::install_theme(theme = 'vjeantet/hugo-theme-docdock')
+# brew uninstall --force hugo
+install_hugo(version = '0.49.2', force=TRUE, use_brew=FALSE)
+hugo_version()
 
 blogdown::build_site()
 
