@@ -15,7 +15,7 @@ Start  | Due Date | Chapter | Topic
 :------|:---------|:-------:|:-----------------------------------
 Jan-25 | Feb-10   | 1       | [Intro to Data](/chapters/chapter1)
 Feb-11 | Feb-17   | 2       | [Probability](/chapters/chapter2)
-Fep-18 | Mar-3    | 3       | [Distributions](/chapters/chapter3)
+Feb-18 | Mar-3    | 3       | [Distributions](/chapters/chapter3)
 Mar-4  | Mar-17   | 4       | [Foundation for Inference](/chapters/chapter4)
 Mar-18 | Mar-24   | 5       | [Inference for Numerical Data](/chapters/chapter5)
 Mar-25 | Mar-31   | 6       | [Inference for Categorical Data](/chapters/chapter6)
