@@ -62,7 +62,7 @@ A little about me:
 
 Syllabus and course materials are here: [http://data606.net](http://data606.net)
 
-The site is built using the [Blogdown](https://bookdown.org/yihui/blogdown/) R package and hosted on [Github](https://github.com/jbryer/DATA606Spring2019).
+The site is built using the [Blogdown](https://bookdown.org/yihui/blogdown/) R package and hosted on [Github](https://github.com/jbryer/DATA606Spring2019). Each page of the site has a "Improve this page" link at the bottom right, use that to start a pull request on Github.
 
 We will use Blackboard primary only for submitting assignments. Please submit:
 
@@ -122,6 +122,8 @@ The package can be installed from Github using the `devtools` package.
 ```{r, eval=FALSE}
 devtools::install_github('jbryer/DATA606')
 ```
+
+Download the `Setup.R` script here: https://github.com/jbryer/DATA606Spring2019/blob/master/R/Setup.R
 
 ### Important Functions
 
