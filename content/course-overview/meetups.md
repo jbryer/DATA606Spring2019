@@ -17,7 +17,7 @@ Access Code: 890-853-557
 
 Date                  | Topic                           | Resources |
 :---------------------|:--------------------------------|:----------|
-                      | Welcome to DATA 606             | [Slides](/slides/2019-01-24-Intro_to_Course.html#1)
+                      | Welcome to DATA 606             | [Video](https://youtu.be/yIyferBnO24), [Slides](/slides/2019-01-24-Intro_to_Course.html#1)
 Wed, Jan 3, 8pm       | Intro to Course                 | 
 Wed, Feb 6, 8pm       | Intro to Data                   | 
 Wed, Feb 13, 8pm      | Probability                     | 

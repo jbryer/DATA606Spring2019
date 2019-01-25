@@ -17,5 +17,7 @@ Welcome to DATA606! My name is Dr. Jason Bryer and I will be your instructor for
 * I am looking forward to getting to know everyone and a fantastic semester! Good luck!
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yIyferBnO24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <!-- iframe src="/slides/2019-01-24-Intro_to_Course.html#1" width="1024px" height="768px"  frameborder="0" allowfullscreen>
 </iframe -->
