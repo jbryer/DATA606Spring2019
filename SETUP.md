@@ -39,7 +39,7 @@ Outline:
 
 #### General Materials
 
-#####
+##### Getting Acquainted
 
 Please introduce yourself on the discussion board. Please answer the following questions:
 
