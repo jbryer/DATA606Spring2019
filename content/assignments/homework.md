@@ -5,7 +5,7 @@ weight = 3
 +++
 
 
-The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded [here](https://github.com/jbryer/DATA606Spring2019/tree/master/data/openintro.org). Or alternatively all the data is included in the `openintro` R packge (use the `data(package = 'openintro')` command to list all the datasets available in that package).
+The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded [here](https://github.com/jbryer/DATA606Spring2019/tree/master/data/os3_data). Or alternatively all the data is included in the `openintro` R packge (use the `data(package = 'openintro')` command to list all the datasets available in that package).
 
 * Chapter 1 - Introduction to Data
 	* Practice: 1.7 (available in R using the `data(iris)` command), 1.9, 1.23, 1.33, 1.55, 1.69
