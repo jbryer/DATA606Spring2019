@@ -14,7 +14,7 @@ We will make use of [R](http://r-project.org), an open source statistics program
 If using Windows, you also need to download and install these:
 
 * [RTools](http://cran.r-project.org/bin/windows/Rtools/)
-* [ActivePerl](http://www.activestate.com/activeperl/downloads/thank-you?dl=http://downloads.activestate.com/ActivePerl/releases/5.16.3.1603/ActivePerl-5.16.3.1603-MSWin32-x86-296746.msi)
+* [ActivePerl](https://www.activestate.com/products/activeperl/downloads/)
 
 Once everything is installed, execute the following command in RStudio to install the packages we will use for this class (you can copy-and-paste):
 

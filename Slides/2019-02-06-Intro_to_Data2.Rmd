@@ -25,9 +25,22 @@ data(legosets)
 
 ## Announcements
 
+* **Next week's meetup will be on Tuesday!**
+* Lab 0 has been graded. Couple of general notes:
+	* There are questions you should answer before the "On your own" section. Keeping all the text is fine.
+	* Use the `.Rmd` file created with the `startLab` function.
+	* If you are using Rpubs (which I highly recommend), put the link in the submission text.
+	* Great start!
+* Installing LaTeX (it is probably worth the effort to do this sooner rather than later)
+	* Links are located here: https://data606.net/course-overview/software/
+* There is a general CUNY MSDS Slack channel [click here](https://join.slack.com/t/cunymsds/shared_invite/enQtNTQxNDkxMTk0MDA0LTcwMWYzMTI4YzdmN2MxMzRiMTM2ZWU5M2U0ODVkNzhlZmM1MWFmZjc3M2ZjNDZjMjNhNmYxZTQ4MzIyMTQ5ZGM) to join it.
+
 
 ## Presentations
 
+* Jagdish Chhabria (1.55)
+* Mia Chen
+* Isabel Ramesar (1.33): https://www.youtube.com/watch?v=GlZBmDxXFcs&feature=youtu.be
 
 ## Sampling vs. Census
 
@@ -100,6 +113,59 @@ Difference between blocking and explanatory variables
 
 <img src='images/random_sample_assignment.png' width='900'>
 
+## Causality {.flexbox .vcenter}
+
+<img src='images/Causality.png' width='900'>
+
+## Randomized Control Trials {.flexbox .vcenter}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(psych)
+library(gridExtra)
+# devtools::install_github("thomasp85/patchwork")
+library(patchwork)
+library(purrr)
+library(dplyr)
+
+pop.mean <- 100
+pop.sd <- 15
+pop.es <- .3
+
+n <- 30
+
+set.seed(123)
+thedata <- data.frame(
+	id = 1:30,
+	center = rnorm(n, mean = pop.mean, sd = pop.sd),
+	stringsAsFactors = FALSE
+)
+val <- pop.sd * pop.es / 2
+thedata$placebo <- thedata$center - val
+thedata$treatment <- thedata$center + val
+thedata$diff <- thedata$treatment - thedata$placebo
+thedata$RCT_Assignment <- sample(c('placebo', 'treatment'), n, replace = TRUE)
+thedata$RCT_Value <- as.numeric(apply(thedata, 1, 
+					FUN = function(x) { return(x[x['RCT_Assignment']]) }))
+tab.out <- describeBy(thedata$RCT_Value, group = thedata$RCT_Assignment, mat = TRUE, skew = FALSE)
+
+p1 <- ggplot(thedata) + 
+	geom_segment(aes(x = placebo, xend = treatment, y = id, yend = id)) +
+	geom_point(aes(x = placebo, y = id), color = 'blue') +
+	geom_point(aes(x = treatment, y = id), color = 'red') +
+	ylab('') + xlab('Outcome') +
+	xlim(pop.mean - 3 * pop.sd, pop.mean + 3 * pop.sd) +
+	ggtitle(paste0('True Counterfactual Difference = ', mean(thedata$diff)))
+p2 <- ggplot(thedata, aes(x = RCT_Value, color = RCT_Assignment, y = id)) +
+	geom_point() +
+	scale_color_manual(values = c('placebo' = 'blue', 'treatment' = 'red')) +
+	theme(legend.position = 'none') +
+	geom_vline(data = tab.out, aes(xintercept = mean, color = group1)) +
+	ylab('') + xlab('Outcome') +
+	xlim(pop.mean - 3 * pop.sd, pop.mean + 3 * pop.sd) +
+	ggtitle(paste0('RCT Difference = ', round(diff(tab.out$mean), digits = 2)))
+grid.arrange(p1, p2, nrow = 1)
+```
 
 ## `ggplot2`
 
