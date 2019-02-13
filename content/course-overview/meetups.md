@@ -20,7 +20,7 @@ Date                  | Topic                           | Resources |
                       | Welcome to DATA 606             | [Video](https://youtu.be/yIyferBnO24), [Slides](/slides/2019-01-24-Intro_to_Course.html#1)
 Wed, Jan 30, 8pm      | Intro to Data Part I            | [Video](https://youtu.be/YE9StFdS2bg), [Slides](/slides/2019-01-30-Intro_to_Data.html)
 Wed, Feb 6, 8pm       | Intro to Data Part II           | [Video](https://youtu.be/ecpjfV1cSl4), [Slides](/slides/2019-02-06-Intro_to_Data2.html)
-**Tue, Feb 12, 8pm**      | Probability                     | 
+**Tue, Feb 12, 8pm**      | Probability                     | [Video](https://youtu.be/R70xUu3GiPQ), [Slides](/slides/2019-02-12-Probability.html)
 Wed, Feb 20, 8pm      | Distributions Part I            | 
 Wed, Feb 27, 8pm      | Distributions Part II           | 
 Wed, Mar 6, 8pm       | Foundation for Inference        | 
