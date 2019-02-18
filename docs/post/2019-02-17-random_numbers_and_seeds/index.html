@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.49.2" />
-<title>Bayesian :: DATA606 - Spring 2019</title>
+<title>Random Numbers and Seeds in R :: DATA606 - Spring 2019</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 
     
   </head>
-  <body data-url="/chapters/bayesian/">
+  <body data-url="/post/2019-02-17-random_numbers_and_seeds/">
     
       <header>
   <div class="logo">
@@ -79,13 +79,14 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/post/" class="dd-item haschildren
+    <li data-nav-id="/post/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/post/">Announcements</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/post/">Announcements</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/post/2019-02-17-random_numbers_and_seeds/" class="dd-item">
+      <li data-nav-id="/post/2019-02-17-random_numbers_and_seeds/" class="dd-item active">
         <div>
           <a href="/post/2019-02-17-random_numbers_and_seeds/">
             Random Numbers and Seeds in R
@@ -195,11 +196,10 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/chapters/" class="dd-item parent haschildren
+    <li data-nav-id="/chapters/" class="dd-item haschildren
         ">
       <div>
-      <a href="/chapters/">Chapters</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/chapters/">Chapters</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/chapters/chapter1/" class="dd-item">
@@ -258,7 +258,7 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-      <li data-nav-id="/chapters/bayesian/" class="dd-item active">
+      <li data-nav-id="/chapters/bayesian/" class="dd-item">
         <div>
           <a href="/chapters/bayesian/">
             Bayesian
@@ -282,7 +282,11 @@
         <select onchange="javascript:location.href = this.value;">
           
     <option value="/post/" >
-   Announcements</option>
+   Announcements</option> 
+      <option value="/post/2019-02-17-random_numbers_and_seeds/"  selected>- Random Numbers and Seeds in R</option>
+      <option value="/post/2019-01-16-getting-started-with-r/" >- Getting Started with R</option>
+      <option value="/post/2019-01-15-welcome-to-data606/" >- Welcome to DATA606!</option>
+  
     <option value="/course-overview/" >
    Course Overview</option> 
       <option value="/course-overview/schedule/" >- Schedule</option>
@@ -295,17 +299,7 @@
     <option value="/assignments/" >
    Assignments</option>
     <option value="/chapters/" >
-   Chapters</option> 
-      <option value="/chapters/chapter1/" >- Chapter 1</option>
-      <option value="/chapters/chapter2/" >- Chapter 2</option>
-      <option value="/chapters/chapter3/" >- Chapter 3</option>
-      <option value="/chapters/chapter4/" >- Chapter 4</option>
-      <option value="/chapters/chapter5/" >- Chapter 5</option>
-      <option value="/chapters/chapter6/" >- Chapter 6</option>
-      <option value="/chapters/chapter7/" >- Chapter 7</option>
-      <option value="/chapters/chapter8/" >- Chapter 8</option>
-      <option value="/chapters/bayesian/"  selected>- Bayesian</option>
-  
+   Chapters</option>
 
 
 
@@ -328,57 +322,42 @@
       </div>
     
 
-    <h1>Bayesian</h1>
+    <h1>Random Numbers and Seeds in R</h1>
     
     
     
-    
-
-<h2 id="bayesian-analysis">Bayesian Analysis</h2>
-
-<h2 id="assignments">Assignments</h2>
-
-<h3 id="homework">Homework</h3>
-
-<p><em>OpenIntro Statistics</em></p>
-
-<ul>
-<li>Practice:</li>
-<li>Graded:</li>
-</ul>
-
-<h3 id="lab-1">Lab 1</h3>
-
-<h3 id="readings">Readings</h3>
-
-<ul>
-<li><a href="http://www.exegetic.biz/blog/2013/08/fitting-a-model-by-maximum-likelihood/">Fitting a Model by Maximum Likelihood</a> (Collier, 2013).</li>
-<li><a href="https://sites.google.com/site/doingbayesiandataanalysis/">Kruschke&rsquo;s website for <em>Doing Bayesian Data Analysis</em></a></li>
-<li><a href="http://doingbayesiandataanalysis.blogspot.com/">Kruschke&rsquo;s blog</a></li>
-<li><a href="http://andrewgelman.com/">Andrew Gelman&rsquo;s blog</a> - Posts about <a href="http://andrewgelman.com/category/bayesian-statistics/">bayesian statistics</a></li>
-</ul>
-
-<h3 id="videos">Videos</h3>
-
-<p><a href="https://www.youtube.com/watch?v=YyohWpjl6KU">Bayesian Methods Interpret Data Better</a></p>
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/YyohWpjl6KU" frameborder="0" allowfullscreen></iframe>
-
-<p><a href="https://www.youtube.com/watch?v=fhw1j1Ru2i0">Bayesian Estimation Supersedes the t Test</a></p>
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/fhw1j1Ru2i0" frameborder="0" allowfullscreen></iframe>
-
-<p><a href="https://www.youtube.com/watch?v=lh5btlAvrLs">Precision is the goal</a></p>
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/lh5btlAvrLs" frameborder="0" allowfullscreen></iframe>
+    <p>To explore how R generates randome numbers, we will use the <code>rnorm</code> function. This function draws a random number from a normal distribution with a mean = 0 and standard deviation = 1 (though these can be changed with the <code>mean</code> and <code>sd</code> parameters). With <code>n = 1</code> we will get two random numbers.</p>
+<pre class="r"><code>rnorm(n = 1)</code></pre>
+<pre><code>## [1] 1.499089</code></pre>
+<pre class="r"><code>rnorm(n = 1)</code></pre>
+<pre><code>## [1] 0.5189658</code></pre>
+<p>Each time you run the command you will get a different number. The <code>set.seed</code> function will sets a seed to the random number generator so that each subsequent run will produce the same number.</p>
+<pre class="r"><code>set.seed(2112); rnorm(n = 1)</code></pre>
+<pre><code>## [1] 0.9243372</code></pre>
+<pre class="r"><code>set.seed(2112); rnorm(n = 1)</code></pre>
+<pre><code>## [1] 0.9243372</code></pre>
+<p>Setting a different seed results in a different number.</p>
+<pre class="r"><code>set.seed(2113); rnorm(n = 1)</code></pre>
+<pre><code>## [1] 0.5499032</code></pre>
+<p><strong>What are seeds?</strong></p>
+<p>Computers are actually bad at random events. However, there are good algorithms that mimic random processes. These algorithms work by starting with some initial value, a seed, and executing a complex algorithm that approximates randomozation. The seed is often set to the current time in miliseconds. To visualize the ramdom process, we will use the <code>sample</code> function to randomly select a number between 1 and 100. We will consider the ouput for the first 1,000 seeds.</p>
+<pre class="r"><code>random_numbers &lt;- integer(1000)
+for(i in seq_len(length(random_numbers))) {
+    set.seed(i)
+    random_numbers[i] &lt;- sample(1:100, size = 1)
+}
+library(ggplot2)
+ggplot(data.frame(x = 1:100, y = random_numbers),
+       aes(x = x, y = y)) + geom_point()</code></pre>
+<p><img src="/post/2019-02-17-random_numbers_and_seeds_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/chapters/chapter8/" title="Chapter 8"> <i class="fa fa-chevron-left"></i><label>Chapter 8</label></a>
-    <a class="nav nav-next" href="/chapters/chapter1/" title="Chapter 1" style="margin-right: 0px;"><label>Chapter 1</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/post/" title="Announcements"> <i class="fa fa-chevron-left"></i><label>Announcements</label></a>
+    <a class="nav nav-next" href="/post/2019-01-16-getting-started-with-r/" title="Getting Started with R" style="margin-right: 0px;"><label>Getting Started with R</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -388,17 +367,23 @@
 
 <div class="footline">
     
+    <div class="tags"> 
+      
+        <a class="label label-default" href="/tags/random-numbers">random numbers</a>
+      
+    </div>
+    
 
     
 
   
     <div class="date">
-        <i class='fa fa-calendar'></i> Last update on 29/04/2017
+        <i class='fa fa-calendar'></i> Last update on 17/02/2019
     </div>
     
 
     <div class="github-link">
-      <a href="https://github.com/jbryer/DATA606Spring2019/tree/master/content/chapters/bayesian.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/jbryer/DATA606Spring2019/tree/master/content/post/2019-02-17-random_numbers_and_seeds.html" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
   </div>
