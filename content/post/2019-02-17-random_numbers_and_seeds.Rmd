@@ -38,6 +38,8 @@ for(i in seq_len(length(random_numbers))) {
 }
 library(ggplot2)
 ggplot(data.frame(x = 1:100, y = random_numbers),
-	   aes(x = x, y = y)) + geom_point()
+	   aes(x = x, y = y)) + 
+	geom_point() +
+	xlab('Seed') + ylab('Random Number')
 ```
 
