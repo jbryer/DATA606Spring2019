@@ -86,6 +86,13 @@
             <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
+      <li data-nav-id="/post/2019-02-20-colors/" class="dd-item">
+        <div>
+          <a href="/post/2019-02-20-colors/">
+            Colors
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
       <li data-nav-id="/post/2019-02-17-random_numbers_and_seeds/" class="dd-item active">
         <div>
           <a href="/post/2019-02-17-random_numbers_and_seeds/">
@@ -283,6 +290,7 @@
           
     <option value="/post/" >
    Announcements</option> 
+      <option value="/post/2019-02-20-colors/" >- Colors</option>
       <option value="/post/2019-02-17-random_numbers_and_seeds/"  selected>- Random Numbers and Seeds in R</option>
       <option value="/post/2019-01-16-getting-started-with-r/" >- Getting Started with R</option>
       <option value="/post/2019-01-15-welcome-to-data606/" >- Welcome to DATA606!</option>
@@ -328,9 +336,9 @@
     
     <p>To explore how R generates randome numbers, we will use the <code>rnorm</code> function. This function draws a random number from a normal distribution with a mean = 0 and standard deviation = 1 (though these can be changed with the <code>mean</code> and <code>sd</code> parameters). With <code>n = 1</code> we will get two random numbers.</p>
 <pre class="r"><code>rnorm(n = 1)</code></pre>
-<pre><code>## [1] 0.2319947</code></pre>
+<pre><code>## [1] -0.08823081</code></pre>
 <pre class="r"><code>rnorm(n = 1)</code></pre>
-<pre><code>## [1] 0.7887316</code></pre>
+<pre><code>## [1] 1.796981</code></pre>
 <p>Each time you run the command you will get a different number. The <code>set.seed</code> function will sets a seed to the random number generator so that each subsequent run will produce the same number.</p>
 <pre class="r"><code>set.seed(2112); rnorm(n = 1)</code></pre>
 <pre><code>## [1] 0.9243372</code></pre>
@@ -358,7 +366,7 @@ ggplot(data.frame(x = 1:100, y = random_numbers),
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/post/" title="Announcements"> <i class="fa fa-chevron-left"></i><label>Announcements</label></a>
+<a class="nav nav-prev" href="/post/2019-02-20-colors/" title="Colors"> <i class="fa fa-chevron-left"></i><label>Colors</label></a>
     <a class="nav nav-next" href="/post/2019-01-16-getting-started-with-r/" title="Getting Started with R" style="margin-right: 0px;"><label>Getting Started with R</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 

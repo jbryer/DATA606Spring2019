@@ -210,13 +210,22 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
     </item>
     
     <item>
+      <title>Colors</title>
+      <link>/post/2019-02-20-colors/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-02-20-colors/</guid>
+      <description>Upon grading the labs I noticed there is interest in adding color to the plots. I understand and appreciate the desire to make your figures more aesthetically pleasing. I have used colors to make the figures fit the overall style of whatever publication they are going to be used in. However, my general advice is to only use color when it adds value. For example, coloring bars or points based upon a quantitative variable is often very helpful.</description>
+    </item>
+    
+    <item>
       <title>Random Numbers and Seeds in R</title>
       <link>/post/2019-02-17-random_numbers_and_seeds/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019-02-17-random_numbers_and_seeds/</guid>
       <description>To explore how R generates randome numbers, we will use the rnorm function. This function draws a random number from a normal distribution with a mean = 0 and standard deviation = 1 (though these can be changed with the mean and sd parameters). With n = 1 we will get two random numbers.
-rnorm(n = 1) ## [1] 0.2319947 rnorm(n = 1) ## [1] 0.7887316 Each time you run the command you will get a different number.</description>
+rnorm(n = 1) ## [1] -0.08823081 rnorm(n = 1) ## [1] 1.796981 Each time you run the command you will get a different number.</description>
     </item>
     
     <item>
