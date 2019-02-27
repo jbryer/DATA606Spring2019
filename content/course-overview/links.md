@@ -25,3 +25,46 @@ These are some useful resources on the web for learning R. Feel free to suggest 
 * [The R Markdown Website](http://rmarkdown.rstudio.com/) has a nice introduction on how Markdown is extended to allow for the inclusion of R code and output.
 * [Video Introduction to R Markdown](https://www.youtube.com/watch?v=cFe1UJrj7lc). This short video (under 4 minutes) was recorded with an older version, so not all of the features and dialog boxes will look the same, but may be helpful.
 
+## Websites
+
+* [R-Bloggers](https://www.r-bloggers.com/)
+
+
+## Podcasts
+
+* [No So Standard Deviations](http://nssdeviations.com/) [@nssdeviations](https://twitter.com/nssdeviations)
+* [DataFramed](https://www.datacamp.com/community/podcast)
+
+## People
+
+Data scientists, statisticians, and generally interesting people.
+
+* [Hadley Wickham](http://hadley.nz/) [@hadleywickham](https://twitter.com/hadleywickham)
+* [Chris Albon](https://t.co/CQhzAA24cn) [@chrisalbon](https://twitter.com/chrisalbon)
+* David Smith [@revodavid](https://twitter.com/revodavid?lang=en)
+* Alex Hayes [@alexpghayes](https://twitter.com/alexpghayes)
+* Max Kuhn [@topepos](https://twitter.com/topepos)
+* Daniela Witten [@daniela_witten](https://twitter.com/daniela_witten)
+* Dianne Cook [@visnut](https://twitter.com/visnut)
+* Mara Averick [@dataandme](https://twitter.com/dataandme)
+* Angela Bassa [@AngeBassa](https://twitter.com/AngeBassa)
+* Julia Silge [@juliasilge](https://twitter.com/juliasilge)
+* Frank Harrell [@f2harrell](https://twitter.com/f2harrell)
+* Joe Cheng [@jcheng](https://twitter.com/jcheng)
+* Amelia McNamara [@AmeliaMN](https://twitter.com/AmeliaMN)
+* Jenny Bryan [@JennyBryan](https://twitter.com/JennyBryan)
+* Elizabeth Stuart [@lizstuartdc](https://twitter.com/Lizstuartdc)
+* David Robinson [@drob](https://twitter.com/drob)
+* Gary King [@kinggary](https://twitter.com/kinggary)
+* Rasmus Bååth [@rabaath](https://twitter.com/rabaath)
+* Mine CetinkayaRundel [@minebocek](https://twitter.com/minebocek)
+* Karl Browman [@kwbroman](https://twitter.com/kwbroman)
+* Andrew Gelman [@statmodeling](https://twitter.com/StatModeling)
+
+
+
+## Videos
+
+* [Understanding PCA using Shiny and Stack Overflow data](https://www.rstudio.com/resources/videos/understanding-pca-using-shiny-and-stack-overflow-data/)
+
+
