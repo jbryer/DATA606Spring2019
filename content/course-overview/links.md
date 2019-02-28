@@ -4,7 +4,7 @@ description = ""
 weight = 5
 +++
 
-These are some useful resources on the web for learning R. Feel free to suggest other resources by clicking the "Edit page" button in the top right.
+These are some useful resources on the web for learning R. Feel free to suggest other resources by clicking the "Improve this page" button in the top right.
 
 ## Learning R
 
