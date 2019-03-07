@@ -63,7 +63,7 @@ You can join the meetup from your computer, tablet or smartphone at: https://glo
 You can also dial in using your phone: (646) 749-3122
 Access Code: 890-853-557
 Presentation Signup Sheet
-   Date Topic Resources      Welcome to DATA 606 Video, Slides   Wed, Jan 30, 8pm Intro to Data Part I Video, Slides   Wed, Feb 6, 8pm Intro to Data Part II Video, Slides   Tue, Feb 12, 8pm Probability Video, Slides   Wed, Feb 20, 8pm Distributions Part I Video, Slides   Wed, Feb 27, 8pm Distributions Part II Video, Slides   Wed, Mar 6, 8pm Foundation for Inference    Wed, Mar 13, 8pm Foundation for Inference cont.</description>
+   Date Topic Resources      Welcome to DATA 606 Video, Slides   Wed, Jan 30, 8pm Intro to Data Part I Video, Slides   Wed, Feb 6, 8pm Intro to Data Part II Video, Slides   Tue, Feb 12, 8pm Probability Video, Slides   Wed, Feb 20, 8pm Distributions Part I Video, Slides   Wed, Feb 27, 8pm Distributions Part II Video, Slides   Wed, Mar 6, 8pm Foundation for Inference Video, Slides   Wed, Mar 13, 8pm Foundation for Inference cont.</description>
     </item>
     
     <item>
@@ -225,7 +225,7 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
       
       <guid>/post/2019-02-17-random_numbers_and_seeds/</guid>
       <description>To explore how R generates randome numbers, we will use the rnorm function. This function draws a random number from a normal distribution with a mean = 0 and standard deviation = 1 (though these can be changed with the mean and sd parameters). With n = 1 we will get two random numbers.
-rnorm(n = 1) ## [1] -1.365636 rnorm(n = 1) ## [1] 0.006629444 Each time you run the command you will get a different number.</description>
+rnorm(n = 1) ## [1] -0.1594206 rnorm(n = 1) ## [1] -0.6120698 Each time you run the command you will get a different number.</description>
     </item>
     
     <item>

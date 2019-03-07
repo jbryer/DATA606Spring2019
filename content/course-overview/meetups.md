@@ -23,7 +23,7 @@ Wed, Feb 6, 8pm       | Intro to Data Part II           | [Video](https://youtu.
 **Tue, Feb 12, 8pm**      | Probability                     | [Video](https://youtu.be/R70xUu3GiPQ), [Slides](/slides/2019-02-12-Probability.html)
 Wed, Feb 20, 8pm      | Distributions Part I            | [Video](https://youtu.be/Kv17GpkSI2U), [Slides](/slides/2019-02-20-Distributions.html)
 Wed, Feb 27, 8pm      | Distributions Part II           | [Video](https://youtu.be/8qTQyHapgmc), [Slides](/slides/2019-02-27-Distributions2.html)
-Wed, Mar 6, 8pm       | Foundation for Inference        | 
+Wed, Mar 6, 8pm       | Foundation for Inference        | [Video](https://youtu.be/2U3C_J16Gjg), [Slides](/slides/2019-03-06-Foundation_for_Inference.html)
 Wed, Mar 13, 8pm      | Foundation for Inference cont.  | 
 Wed, Mar 20, 8pm      | Inference for Numerical Data    | 
 Wed, Mar 27, 8pm      | Inference for Categorical Data  | 
