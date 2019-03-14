@@ -1,0 +1,282 @@
+---
+title: "DATA606 - Foundation for Inference"
+author: Jason Bryer, Ph.D.
+date: March 13, 2019
+knit: (function(inputFile, encoding) { input.dir <- normalizePath(dirname(inputFile)); rmarkdown::render(input = inputFile, encoding = encoding, quiet=FALSE, output_file = paste0(input.dir,'/../docs/slides/', tools::file_path_sans_ext(basename(inputFile)), '.html')); })
+output:
+  ioslides_presentation:
+    self_contained: true
+    widescreen: true
+    smaller: true
+editor_options: 
+  chunk_output_type: console
+---
+
+<div class="notes">
+Documentation on using ioslides is available here:
+http://rmarkdown.rstudio.com/ioslides_presentation_format.html
+Some slides are adopted (or copied) from OpenIntro: https://www.openintro.org/
+</div>
+
+```{r setup, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+set.seed(2112)
+library(ggplot2)
+library(openintro)
+library(DATA606)
+par(mar=c(2.5,1,2,1))
+
+PlotDist <- function(alpha, from = -5, to = 5, n = 1000, filename = NULL,
+    alternative = c("two.tailed", "greater", "lesser"), 
+    distribution = c("normal", "t", "F", "chisq", "binomial"), 
+    colour = "black", fill = "skyblue2",
+    ...)
+{
+    alternative <- match.arg(alternative)
+    alt.alpha <- switch(alternative, two.tailed = alpha/2, greater = alpha,
+        lesser = alpha)
+    MyDen <- switch(distribution, normal = dnorm, t = dt, F = df,
+        chisq = dchisq, binomial = dbinom)
+    MyDist <- switch(distribution, normal = qnorm, t = qt, F = qf,
+        chisq = qchisq, binomial = qbinom)
+    crit.lower <- MyDist(p = alt.alpha, lower.tail = TRUE, ...)
+    crit.upper <- MyDist(p = alt.alpha, lower.tail = FALSE, ...)
+    cord.x1 <- c(from, seq(from = from, to = crit.lower, length.out = 100),
+        crit.lower)
+    cord.y1 <- c(0, MyDen(x = seq(from = from, to = crit.lower,
+        length.out = 100), ...), 0)
+    cord.x2 <- c(crit.upper, seq(from = crit.upper, to = to,
+        length.out = 100), to)
+    cord.y2 <- c(0, MyDen(x = seq(from = crit.upper, to = to,
+        length.out = 100), ...), 0)
+    if (!is.null(filename)) pdf(file = filename)
+    curve(MyDen(x, ...), from = from, to = to, n = n, col = colour,
+        lty = 1, lwd = 2, ylab = "Density", xlab = "Values")
+    if (!identical(alternative, "greater")) {
+        polygon(x = cord.x1, y = cord.y1, col = fill)
+    }
+    if (!identical(alternative, "lesser")) {
+        polygon(x = cord.x2, y = cord.y2, col = fill)
+    }
+    if (!is.null(filename)) dev.off()
+}
+```
+
+
+## Meetup Presentations
+
+* Uliana Plotnikova (4.3) http://rpubs.com/uplotnik/475303
+* Mary Anna Kivenson (4.23) http://rpubs.com/mkivenson/475036
+
+
+## Type I and II Errors
+
+There are two competing hypotheses: the null and the alternative. In a hypothesis test, we make a decision about which might be true, but our choice might be incorrect.
+
+
+
+|                    | fail to reject H<sub>0</sub> | reject H<sub>0</sub> |
+|--------------------|:----------------------------:|:--------------------:|
+| H<sub>0</sub> true |        	&#10004;            |  Type I Error        |
+| H<sub>A</sub> true |     Type II Error            |      	&#10004;       |
+
+
+<br /><br />
+
+* Type I Error: **Rejecting** the null hypothesis when it is **true**.
+* Type II Error: **Failing to reject** the null hypothesis when it is **false**.
+
+
+## Hypothesis Test
+
+If we again think of a hypothesis test as a criminal trial then it
+makes sense to frame the verdict in terms of the null and
+alternative hypotheses:
+
+<p style="padding-left:150px">
+H<sub>0</sub> : Defendant is innocent<br/>
+H<sub>A</sub> : Defendant is guilty
+</p>
+
+Which type of error is being committed in the following
+circumstances?
+
+* Declaring the defendant innocent when they are actually guilty  
+<center>Type 2 error</center>
+
+* Declaring the defendant guilty when they are actually innocent  
+<center>Type 1 error</center>
+
+Which error do you think is the worse error to make? 
+
+
+## Null Distribution {.flexbox .vcenter}
+
+```{r, fig.width=6, fig.height=3.5}
+(cv <- qnorm(0.05, mean=0, sd=1, lower.tail=FALSE))
+PlotDist(alpha=0.05, distribution='normal', alternative='greater')
+abline(v=cv, col='blue')
+```
+
+## Alternative Distribution {.flexbox .vcenter}
+
+```{r, fig.width=6, fig.height=3.5}
+cord.x1 <- c(-5, seq(from = -5, to = cv, length.out = 100), cv)
+cord.y1 <- c(0, dnorm(mean=cv, x=seq(from=-5, to=cv, length.out = 100)), 0)
+curve(dnorm(x, mean=cv), from = -5, to = 5, n = 1000, col = "black",
+        lty = 1, lwd = 2, ylab = "Density", xlab = "Values")
+polygon(x = cord.x1, y = cord.y1, col = 'lightgreen')
+abline(v=cv, col='blue')
+```
+
+```{r}
+pnorm(cv, mean=cv, lower.tail = FALSE)
+```
+
+## Another Example (mu = 2.5) {.flexbox .vcenter}
+
+```{r}
+mu <- 2.5
+(cv <- qnorm(0.05, mean=0, sd=1, lower.tail=FALSE))
+```
+
+```{r, echo=FALSE, fig.width=3.5, fig.height=3.5, fig.show='hold'}
+pv <- pnorm(mu, mean=0, sd=1, lower.tail=FALSE)
+
+PlotDist(alpha=pv, distribution='normal', alternative='greater')
+abline(v=mu, col='blue')
+title('Null Distribution')
+
+cord.x1 <- c(-5, seq(from = -5, to = cv, length.out = 100), cv)
+cord.y1 <- c(0, dnorm(mean=mu, x=seq(from=-5, to=cv, length.out = 100)), 0)
+curve(dnorm(x, mean=mu), from = -5, to = 5, n = 1000, col = "black",
+        lty = 1, lwd = 2, ylab = "Density", xlab = "Values")
+polygon(x = cord.x1, y = cord.y1, col='lightgreen')
+abline(v=mu, col='blue')
+title('Alternative Distribution')
+```
+
+## Numeric Values
+
+Type I Error
+
+```{r}
+pnorm(mu, mean=0, sd=1, lower.tail=FALSE)
+```
+
+Type II Error
+
+```{r}
+pnorm(cv, mean=mu, lower.tail = TRUE)
+```
+
+## Shiny Application
+
+Visualizing Type I and Type II errors: [http://shiny.albany.edu/stat/betaprob/](http://shiny.albany.edu/stat/betaprob/)
+
+## Why p < 0.05?
+
+Check out this page: https://www.openintro.org/stat/why05.php
+
+See also:
+
+Kelly M. [*Emily Dickinson and monkeys on the stair Or: What is the significance of the 5% significance level?*](http://www.acsu.buffalo.edu/~grant/5pcMarkKelley.pdf) Significance 10:5. 2013.
+
+
+## Statistical vs. Practical Significance
+
+* Real differences between the point estimate and null value are easier to detect with larger samples.
+* However, very large samples will result in statistical significance even for tiny differences between the sample mean and the null value (effect size), even when the difference is not practically significant.
+* This is especially important to research: if we conduct a study, we want to focus on finding meaningful results (we want observed differences to be real, but also large enough to matter).
+* The role of a statistician is not just in the analysis of data, but also in planning and design of a study.
+
+## Bootstrapping
+
+* First introduced by Efron (1979) in [*Bootstrap Methods: Another Look at the Jackknife*](https://projecteuclid.org/euclid.aos/1176344552).
+* Estimates confidence of statistics by resampling *with* replacement.
+* The *bootstrap sample* provides an estimate of the sampling distribution.
+* The `boot` R package provides a framework for doing bootstrapping: https://www.statmethods.net/advstats/bootstrapping.html
+
+## Bootstrapping Example (Population)
+
+Define our population with a uniform distribution.
+
+```{r}
+n <- 1e5
+pop <- runif(n, 0, 1)
+mean(pop)
+```
+
+<center>
+```{r, echo=FALSE, fig.width=8,fig.height=3.5}
+d <- density(pop)
+h <- hist(pop, plot=FALSE)
+hist(pop, main='Population Distribution', xlab="", freq=FALSE, 
+     ylim=c(0, max(d$y, h$density)+.5), col=COL[1,2], border = "white", 
+	 cex.main = 1.5, cex.axis = 1.5, cex.lab = 1.5)
+lines(d, lwd=3)
+```
+</center>
+
+## Bootstrapping Example (Sample)
+
+We observe one random sample from the population.
+
+```{r}
+samp1 <- sample(pop, size = 50)
+```
+
+```{r, echo=FALSE, fig.width=8,fig.height=3.5}
+d <- density(samp1)
+h <- hist(samp1, plot=FALSE)
+hist(samp1, main='Distribution of Sample', xlab="", freq=FALSE, 
+     ylim=c(0, max(d$y, h$density)+.5), col=COL[1,2], border = "white", 
+	 cex.main = 1.5, cex.axis = 1.5, cex.lab = 1.5)
+lines(d, lwd=3)
+```
+
+## Bootsrapping Example (Estimate)
+
+```{r}
+boot.samples <- numeric(1000) # 1,000 bootstrap samples
+for(i in seq_along(boot.samples)) { 
+	tmp <- sample(samp1, size = length(samp1), replace = TRUE)
+	boot.samples[i] <- mean(tmp)
+}
+head(boot.samples)
+```
+
+## Bootsrapping Example (Distribution)
+
+```{r}
+d <- density(boot.samples)
+h <- hist(boot.samples, plot=FALSE)
+hist(boot.samples, main='Bootstrap Distribution', xlab="", freq=FALSE, 
+     ylim=c(0, max(d$y, h$density)+.5), col=COL[1,2], border = "white", 
+	 cex.main = 1.5, cex.axis = 1.5, cex.lab = 1.5)
+lines(d, lwd=3)
+```
+
+## 95% confidence interval
+
+```{r}
+c(mean(boot.samples) - 1.96 * sd(boot.samples), 
+  mean(boot.samples) + 1.96 * sd(boot.samples))
+```
+
+## Bootstrapping is not just for means!
+
+```{r}
+boot.samples.median <- numeric(1000) # 1,000 bootstrap samples
+for(i in seq_along(boot.samples.median)) { 
+	tmp <- sample(samp1, size = length(samp1), replace = TRUE)
+	boot.samples.median[i] <- median(tmp) # NOTICE WE ARE NOW USING THE median FUNCTION!
+}
+head(boot.samples.median)
+```
+
+95% confidence interval for the median
+
+```{r}
+c(mean(boot.samples.median) - 1.96 * sd(boot.samples.median), 
+  mean(boot.samples.median) + 1.96 * sd(boot.samples.median))
+```
