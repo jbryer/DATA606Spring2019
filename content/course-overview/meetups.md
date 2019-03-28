@@ -26,7 +26,7 @@ Wed, Feb 27, 8pm      | Distributions Part II           | [Video](https://youtu.
 Wed, Mar 6, 8pm       | Foundation for Inference        | [Video](https://youtu.be/2U3C_J16Gjg), [Slides](/slides/2019-03-06-Foundation_for_Inference.html)
 Wed, Mar 13, 8pm      | Foundation for Inference cont.  | [Video](https://youtu.be/5SzBk-3M9Dw), [Slides](/slides/2019-03-13-Foundation_for_Inference2.html)
 Wed, Mar 20, 8pm      | Inference for Numerical Data    | [Video](https://youtu.be/AHom6tqd2Gg), [Slides](/slides/2019-03-20-Inference_for_Numerical_Data.html)
-Wed, Mar 27, 8pm      | Inference for Categorical Data  | 
+Wed, Mar 27, 8pm      | Inference for Categorical Data  | [Video](https://youtu.be/eBgYIkuRjfA), [Slides](/slides/2019-03-27-Inference_for_Categorical_Data.html), [R](https://github.com/jbryer/DATA606Spring2019/blob/master/R/2019-03-27.R)
 Wed, Apr 3, 8pm       | Linear Regression               | 
 Wed, Apr 10, 8pm      | Linear Regression cont.         | 
 Wed, Apr 17, 8pm      | Multiple & Logistic Regression  | 
