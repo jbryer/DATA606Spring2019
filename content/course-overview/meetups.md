@@ -29,7 +29,7 @@ Wed, Mar 20, 8pm      | Inference for Numerical Data    | [Video](https://youtu.
 Wed, Mar 27, 8pm      | Inference for Categorical Data  | [Video](https://youtu.be/eBgYIkuRjfA), [Slides](/slides/2019-03-27-Inference_for_Categorical_Data.html), [R](https://github.com/jbryer/DATA606Spring2019/blob/master/R/2019-03-27.R)
 Wed, Apr 3, 8pm       | Linear Regression               | [Video](https://youtu.be/34IXiRABH_M), [Slides](/slides/2019-04-03-Linear_Regression.html)
 Wed, Apr 10, 8pm      | Linear Regression cont.         | [Video](https://youtu.be/OalGmEgRjwo), [Slides](/slides/2019-04-10-Linear_Regression2.html)
-Wed, Apr 17, 8pm      | Multiple & Logistic Regression  | 
+Wed, Apr 17, 8pm      | Multiple & Logistic Regression  | [Video](https://youtu.be/9jLV8haQO0U), [Slides](/slides/2019-04-17-Multiple_Regression.html)
 Wed, Apr 24           | NO MEETUP - Spring Break        | 
 Wed, May 1, 8pm       | Intro to Bayesian Analysis      | 
 Wed, May 8, 8pm       | Wrap-Up                         | 

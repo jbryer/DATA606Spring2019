@@ -33,7 +33,6 @@ These are some useful resources on the web for learning R. Feel free to suggest 
 ## Podcasts
 
 * [No So Standard Deviations](http://nssdeviations.com/) [@nssdeviations](https://twitter.com/nssdeviations)
-* [DataFramed](https://www.datacamp.com/community/podcast)
 
 ## People
 
