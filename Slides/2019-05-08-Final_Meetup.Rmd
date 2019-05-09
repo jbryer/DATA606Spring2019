@@ -49,7 +49,7 @@ par(mar=c(2.5,1,2,1))
 * Fernando Figueres (7.23) http://rpubs.com/ffigueres/d606-hwpres
 * Mohamed Zaman (7.39) http://rpubs.com/thasleem/d606_presentation
 * Michael O'Donnell (8.3)
-
+* Habib Hkan (8.7) https://www.youtube.com/watch?v=Y3pgXd7lwkI&feature=youtu.be https://api.rpubs.com/habibkhan89/494285
 * Weijian Cai (7.35) https://youtu.be/wuxMA2jU6n8 http://rpubs.com/weicai/494213  
 
 
