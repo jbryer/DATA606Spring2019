@@ -32,5 +32,5 @@ Wed, Apr 10, 8pm      | Linear Regression cont.         | [Video](https://youtu.
 Wed, Apr 17, 8pm      | Multiple & Logistic Regression  | [Video](https://youtu.be/9jLV8haQO0U), [Slides](/slides/2019-04-17-Multiple_Regression.html)
 Wed, Apr 24           | NO MEETUP - Spring Break        | 
 Wed, May 1, 8pm       | Intro to Bayesian Analysis      | [Video](https://youtu.be/h1YYNE93-yA), [Slides](/slides/2019-05-01-Bayesian_Analysis.html)
-Wed, May 8, 8pm       | Wrap-Up                         | 
+Wed, May 8, 8pm       | Wrap-Up                         | [Video](https://youtu.be/hVdHnrkCdoQ), [Slides](/slides/2019-05-08-Final_Meetup.html)
 
